@@ -1,0 +1,40 @@
+# 环境变量和配置文件
+.env
+.env.local
+
+# 旧版代码（保留在本地但不提交）
+back-end/
+front-end/
+knowledge/
+doc/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# 数据库
+*.db
+preplay.db
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Claude Code 项目记忆
+CLAUDE.md
